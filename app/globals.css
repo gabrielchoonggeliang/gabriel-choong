@@ -4,6 +4,12 @@
 /* @tailwind components; */
 /* @tailwind utilities; */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 225, 225, 225;
@@ -17,24 +23,15 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-/* .horizontal-list {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-} */
-
+/* if some weird padding happens rewrite the code for that container */
 .horizontal-list {
   list-style: none;
   display: flex;
-  /* flex-direction: row; */
-  justify-content: center; /* Centers the items horizontally */
-  /* align-items: center; Centers the items vertically */
+  justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0;
+  font-size: 14px;
 }
 
 .horizontal-list li {
@@ -47,15 +44,84 @@
 }
 
 .horizontal-list li a:hover {
-  text-decoration: wavy;
+  text-decoration: none;
 }
 
 .literal-header {
   list-style: none;
   display: flex;
-  /* flex-direction: row; */
-  justify-content: center; /* Centers the items horizontally */
-  /* align-items: center; Centers the items vertically */
+  flex-direction: row;
+  justify-content: center;
   padding: 0;
   margin: 0;
+}
+
+.dropdown {
+  white-space: nowrap;
+  position: relative;
+}
+
+.dropdown .submenu {
+  display: none;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f4f2fc;
+  padding: 0;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.dropdown .submenu li {
+  padding: 15px;
+}
+
+.dropdown-symbol {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  transform: rotate(180deg);
+  margin-left: 2px;
+  vertical-align: auto; /* Aligns the symbol vertically with the text */
+  position: relative; /* Enables positioning within the parent element */
+  top: -1px; /* Adjusts the vertical position as needed */
+}
+
+.unbold-text {
+  font-weight: normal;
+}
+
+.buy-me-coffee {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.buy-me-coffee h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.buy-me-coffee p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.buy-me-coffee a {
+  display: inline-block;
+  background-color: #ff813f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.buy-me-coffee a:hover {
+  background-color: #e26d33;
 }

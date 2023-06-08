@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 
-const NexusNetwork = () => {
+const Logo = () => {
     return (
         <a href="/" className="nexus-network">
             <Image
-                src="/images/nexus-network.png"
+                src="/images/logo.png"
                 alt="Nexus Network"
                 width={90}
                 height={90}
@@ -14,4 +14,4 @@ const NexusNetwork = () => {
     )
 }
 
-export default NexusNetwork;
+export default Logo;

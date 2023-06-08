@@ -1,9 +1,16 @@
+import '../globals.css';
 import './page.css'
+
 
 export default function About() {
     return (
         <div className="about">
-            <p>I&apos;m Gabriel. A programmer that specialises in <strong>Web Development</strong> and <strong>Machine Learning Engineering</strong>.</p>
+            <div className='about-header'>
+                <h2 className="unbold-text">Hi, I&apos;m Gabriel</h2>
+            </div>
+            <div className='about-content'>
+                <p>A programmer that specialises in <strong>Web Development</strong> and <strong>Machine Learning Engineering</strong>.</p>
+            </div>
         </div>
     )
 }
