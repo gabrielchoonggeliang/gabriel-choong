@@ -1,14 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
 
 const NexusNetwork = () => {
     return (
         <a href="/" className="nexus-network">
-                <img 
-                    src="/images/nexus-network.png" 
-                    alt="Nexus Network"
-                    style={{ width: '90px', height: 'auto' }}
-                />
-            </a>
+            <Image
+                src="/images/nexus-network.png"
+                alt="Nexus Network"
+                width={90}
+                height={90}
+            />
+        </a>
     )
 }
 
