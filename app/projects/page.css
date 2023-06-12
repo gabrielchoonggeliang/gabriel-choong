@@ -4,3 +4,24 @@
     padding: 0;
     margin: auto;
 }
+
+.projects-introduction {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+}
+
+.project-lists a {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change the color to your desired value */
+}
+
+.project-lists a:hover {
+    color: blue; /* Change the color when hovering */
+    text-decoration: underline; /* Add underline when hovering */
+}

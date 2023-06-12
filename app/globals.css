@@ -30,7 +30,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0;
-  margin: 0;
+  margin: 10px;
   font-size: 14px;
 }
 
@@ -52,6 +52,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: #f8f8f8;
   padding: 0;
   margin: 0;
 }
@@ -124,4 +125,201 @@ body {
 
 .buy-me-coffee a:hover {
   background-color: #e26d33;
+}
+
+.intro {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.intro h1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.intro p {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.featured-content {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.featured-content h2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.featured-content p {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.about-me {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-me h2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.about-me p {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.services {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.services h2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.services p {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.testimonials {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.testimonials p {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.cta {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.cta h2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.cta p {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.social-media {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media h2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.social-media p {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.social-media a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-info {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.contact-info p {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 0;
 }

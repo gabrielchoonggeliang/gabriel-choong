@@ -1,6 +1,6 @@
 import React from 'react';
 import './globals.css';
-import LiteralHeader from './LiteralHeader';
+import LiteralHeader from './components/LiteralHeader';
 
 export default function RootLayout({
   children,

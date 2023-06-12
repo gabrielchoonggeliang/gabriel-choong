@@ -1,10 +1,10 @@
 import React from "react";
-import HorizontalList from "./HorizontalList";
+import MenuBar from "./MenuBar";
 
 const LiteralHeader = () => {
     return (
         <ul className="literal-header">
-            <li><HorizontalList/></li>
+            <li><MenuBar /></li>
         </ul>
     )
 }

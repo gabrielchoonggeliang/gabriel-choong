@@ -1,4 +1,5 @@
 import './page.css'
+import React from 'react';
 
 const SudokuSolver = () => {
     return (
