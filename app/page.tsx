@@ -26,7 +26,7 @@ export default function HomePage() {
 
       <section className="testimonials">
         <h2>Testimonials</h2>
-        <p>I have no idea what this section is all about but I'm gonna put it in.</p>
+        <p>I have no idea what this section is all about but I&apos;m gonna put it in.</p>
       </section>
 
       <section className="cta">
